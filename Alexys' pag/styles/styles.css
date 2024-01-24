@@ -1,9 +1,0 @@
-#hoofding {
-    display:flex; 
-    flex-direction: column;
-    justify-content: center;
-    align-content: center; 
-    background-image: url(/content/aardappelgratin.jpg);
-    width: 150px; 
-    height: 100px; 
-}
