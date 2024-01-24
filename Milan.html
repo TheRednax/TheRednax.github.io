@@ -43,7 +43,43 @@
             bottom: 0;
             width: 100%;
         }
+        div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+#contact
+    {
+clear: both;        
+    }
+    .clear
+    {
+    clear:both;        
+    }
     </style>
+    <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.css">
 </head>
 <body>
 
@@ -85,6 +121,28 @@
         <section id="media">
             <h2>Media Gallery</h2>
             <p>Check out amazing screenshots and videos from the Space Engineers community.</p>
+            <div class="responsive">
+                <div class="gallery">
+                    <img src="downloads.jpg" alt="" width="600" height="400">
+                  </a>
+                </div>
+              </div>
+              
+              <div class="responsive">
+                <div class="gallery">
+                    <img src="downloads (1).jpg" alt="" width="600" height="400">
+                  </a>
+                </div>
+              </div>
+              
+              <div class="responsive">
+                <div class="gallery">
+                    <img src="downloads (2).jpg" alt="" width="600" height="400">
+                  </a>
+                </div>
+                
+
+              </div>
         </section>
 
         <section id="contact">
@@ -92,10 +150,6 @@
             <p>Have questions or suggestions? Reach out to us using the contact information below.</p>
         </section>
     </main>
-
-    <footer>
-        <p>&copy; Milan Deruytter</p>
-    </footer>
 
 </body>
 </html>
